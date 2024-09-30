@@ -19,7 +19,7 @@ if ('serviceWorker' in navigator) {
           '/index.html',
           '/style.css',
           '/app.js',
-          '/icons/icon-192x192.png',
+          '/icon-192x192.png',
         ]);
       })
     );
