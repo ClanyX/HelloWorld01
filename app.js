@@ -34,5 +34,5 @@ function count(){
             break;
     }
 
-    document.getElementById('result').innerText = "Result " + result;
+    document.getElementById('result').innerText = "Result " + result
 }
