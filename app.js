@@ -33,4 +33,6 @@ function count(){
             console.log("spatna operace");
             break;
     }
+
+    document.getElementById('result').innerText = "Result " + result;
 }
