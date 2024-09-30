@@ -18,7 +18,7 @@ if ('serviceWorker' in navigator) {
           '/',
           '/index.html',
           '/style.css',
-          '/app.js',
+          '/script.js',
           '/icon-192x192.png',
         ]);
       })
