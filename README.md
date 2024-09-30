@@ -1,2 +1,2 @@
-# HelloWorld01
-MOA 01
+# MOA
+Repozitář pro výuku mobilních aplikací SSPTAJI
