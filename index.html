@@ -9,8 +9,18 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <h1>Hello world</h1>
-    <button onclick="sayHello()">Click meee!</button>
-    <p id="hello"></p>
+    <h1>Calculator</h1>
+    <form id="calcForm">
+        <input type="number" name="firstN" placeholder="First number" required>
+        <select name="symbol" id="operation">
+            <option value="add">+</option>
+            <option value="subtrack">-</option>
+            <option value="multiply">*</option>
+            <option value="devide">/</option>
+        </select>
+        <input type="number" name="secodN" placeholder="Second number" required>
+        <button id="result" onclick="count()">Count</button>
+    </form>
+    <div id="result">Result</div>
 </body>
 </html>
